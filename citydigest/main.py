@@ -3,7 +3,7 @@ import streamlit as st
 import newsletter
 
 PDF_PATH = "/Users/JonatanMBA/Documents/code/CityDigest/data"
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "-"
 COUNTRY = "Switzerland"
 CITY = "Zurich"
 LEVEL = "don't know much"
