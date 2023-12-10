@@ -4,9 +4,9 @@ import newsletter
 
 PDF_PATH = "./data"
 OPENAI_API_KEY = "sk-..."
-COUNTRY = "Switzerland"
-CITY = "Zurich"
-LEVEL = "don't know much"
+COUNTRY = "your_country"
+CITY = "your_city"
+KNOWLEDGE_LEVEL = "don't know much"
 
 st.set_page_config(
     page_title="Echo Echo Zürich",
@@ -20,7 +20,7 @@ todaysNews = newsletter.get_newsletter(pdfs_directory=PDF_PATH,
                                        openai_api_key=OPENAI_API_KEY,
                                        country=COUNTRY,
                                        city=CITY,
-                                       level=LEVEL)
+                                       level=KNOWLEDGE_LEVEL)
 
 newsletter_md = newsletter.newsletter_mdformat(todaysNews, OPENAI_API_KEY)
 

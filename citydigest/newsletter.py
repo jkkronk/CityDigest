@@ -47,8 +47,8 @@ def get_newsletter(pdfs_directory, openai_api_key, country="Switzerland", city="
 
         # Devide pdf_text into strings of 400000 characters and iterate over them
         # to avoid the 400000 character limit of OpenAI
-        for i in range(0, len(pdf_text), 10000):
-            input_string =  pdf_text[i:i + 10000]
+        for i in range(0, len(pdf_text), 400000):
+            input_string =  pdf_text[i:i + 400000]
 
             client = instructor.patch(OpenAI(api_key=openai_api_key))
             prompt = f"""
@@ -69,7 +69,7 @@ def get_newsletter(pdfs_directory, openai_api_key, country="Switzerland", city="
                     {input_string}
                     """
             overview: Newletter = client.chat.completions.create(
-                model="gpt-3.5-turbo-16k-0613", # gpt-4-1106-preview",
+                model="gpt-4-1106-preview",
                 response_model=Newletter,
                 messages=[
                     {"role": "user", "content": prompt},
