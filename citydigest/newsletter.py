@@ -8,7 +8,7 @@ from pdf_content import pdf_to_string, get_all_pdfs_in_directory
 
 class Article(BaseModel):
     title: str = Field(..., description="The title of the article.")
-    abstract: str = Field(..., description="The abstract of the article.")
+    text: str = Field(..., description="The 10 sentences long article that summarizes the best of the real newpaper article.")
     reference: str = Field(..., description="The reference of the article.")
     image_prompt: Optional[str] = Field(..., description="An optional image prompt of the article.")
 
@@ -26,7 +26,7 @@ def newsletter_mdformat(newsletter: Newletter, openai_api_key, generate_images=T
         if section.image_prompt and generate_images:
             text += f"\n ![image]({generate_image(section.image_prompt, openai_api_key)}) \n"
         text += f"## {section.title} \n"
-        text += f"{section.abstract} \n \n "
+        text += f"{section.text} \n \n "
         text += f"*REFERENCE: {section.reference}*\n"
 
     text += f"## PS.\n"
@@ -92,6 +92,6 @@ def generate_image(promt: str, openai_api_key: str):
         quality="standard",
         n=1,
     )
-    urllib.request.urlretrieve(response.images[0].url, "generated/" + promt + ".png")
+    urllib.request.urlretrieve(response.data[0].url, "generated/" + promt + ".png")
     return "generated/" + promt + ".png"
 
