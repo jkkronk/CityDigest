@@ -47,19 +47,19 @@ def get_newsletter(pdfs_directory, openai_api_key, country="Switzerland", city="
 
         # Devide pdf_text into strings of 400000 characters and iterate over them
         # to avoid the 400000 character limit of OpenAI
-        for i in range(0, len(pdf_text), 400000):
-            input_string =  pdf_text[i:i + 400000]
+        for i in range(0, len(pdf_text), 300000):
+            input_string =  pdf_text[i:i + 300000]
 
             client = instructor.patch(OpenAI(api_key=openai_api_key))
             prompt = f"""
-                    You are a newsletter producer that has been asked to summarize a couple of articles into very short newsletter.
+                    You are a news reporter that has been asked to summarize newspapers into a short newsletter.
                     The newsletter should only consist of news from {country} and {city}. 
                     The newsletter should be written for someone {level} about {country} and {city}.
                     The newsletter should be have 5 articles. And each article should maximum be about 10 sentences long.
-                    Write the newsletter with very personal and easygoing language. The newletter is called "Echo Echo {city}".
+                    The newsletter with very personal and easygoing language. The newletter is called "Echo Echo {city}".
+                    The newsletter should be written in English.
                     Provide references to the articles given the input. 
                     Add a prompt for an image that would be shown for some of the articles if you find it fitting.
-    
                     Additionally, add a funny joke about {city} to end the newsletter.
                     
                     The current newspaper is as below. Use this and update new articles you seem to fit.

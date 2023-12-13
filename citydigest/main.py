@@ -4,8 +4,8 @@ import newsletter
 
 PDF_PATH = "./data"
 OPENAI_API_KEY = "sk-..."
-COUNTRY = "your_country"
-CITY = "your_city"
+COUNTRY = "Switzerland"
+CITY = "Zurich"
 KNOWLEDGE_LEVEL = "don't know much"
 
 st.set_page_config(

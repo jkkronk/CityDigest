@@ -1,26 +1,26 @@
 # Echo Echo Zurich
-__Welcome to Echo Echo Zurich, your personal guide to the latest news and stories from Switzerland and Zurich. We've hand-picked 5 articles for you, each summarized in no more than 10 sentences. Let's dive in!__
-## Swiss Parents Giving Children Sleeping Gummies 
-Swiss parents have been giving their children melatonin gummy bear supplements to help them fall asleep. However, high doses of melatonin can be harmful to the body's metabolism. 
+__Hello there, lovely people of Zurich and beyond! Welcome to your delightful snippet of Swiss infotainment, wrapped up in the cozy vibes of 'Echo Echo Zurich'. Today, we dive into the heart of Switzerland with fresh tales and perspectives from the vibrant city of Zurich and the enchanting Swiss landscapes. Fasten your seatbelts, dip your toes into the flow of the Limmat, and let's embark on today's informative journey together.__
+## A Sweet Slumber Hazard 
+Parents in Zurich are resorting to controversial sleep aids for their children - melatonin gummies promising serene nights, while professionals issue warnings on potential risks. 
  
- *REFERENCE: Source: 20-Minuten*
-## Political Tension Between Swiss Parties 
-The Swiss People's Party (SVP) has threatened to break the concordance agreement if the Swiss Socialist Party (SP) does not approve the Green Party candidate recommended by the SP. This has caused tension between the parties. 
+ *REFERENCE: 20-Minuten_2023-12-08.pdf*
+## Political Pledge or Threat? 
+A political drama unfolds in Bern as SVP hints at breaking concordance if SP backs the Green candidate, potentially reshaping the Swiss political landscape. 
  
- *REFERENCE: Source: 20-Minuten*
-## Criticism Over Discriminatory Behavior at Zurich Gathering 
-A gathering held at a restaurant in Zurich has faced criticism after a leaked video showed discriminatory behavior. The incident is being investigated for potential violation of anti-discrimination laws. 
+ *REFERENCE: 20-Minuten_2023-12-08.pdf*
+## Zurich Zunft: Racial Row Resolved 
+A performance at Zurich Zunfts, branded as racial mockery, gets legal clearance amid social controversy. 
  
- *REFERENCE: Source: 20-Minuten*
-## Controversial Trend of Melatonin Supplements for Kids 
-Melatonin supplements have gained popularity among parents in Switzerland as a sleep aid for children. However, the sale of melatonin as a dietary supplement is not allowed in Switzerland. 
+ *REFERENCE: 20-Minuten_2023-12-08.pdf*
+## Island Explosion's Echo 
+An island in Seychelles is rocked by an explosion, leaving residents in shock and a stark reminder of the fragility of peace. 
  
- *REFERENCE: Source: 20-Minuten*
-## Concerns Over Noise Levels of New Fighter Jets 
-The delivery of new F-35A fighter jets to Swiss military bases has raised concerns among residents due to the higher noise levels. The Swiss Federal Office for Defense reassures that the overall noise exposure will remain within acceptable limits. 
+ *REFERENCE: 20-Minuten_2023-12-08.pdf*
+## Zurich: The Night Flight Conundrum 
+Residents face the dilemma of Zurich's prosperity as the boom in night flights disturbs the city's tranquility. 
  
- *REFERENCE: Source: 20-Minuten*
+ *REFERENCE: 20-Minuten_2023-12-08.pdf*
 ## PS.
-**Did you know that Zurich has more banks than dentists? Looks like money talks louder than toothaches!**
+**Why don't they play hide and seek in Zurich? Because good luck hiding when everyone's a banker and used to keeping an eye on assets!**
 ## PPS.
 __Thanks for reading and stay classy Zürich!__
