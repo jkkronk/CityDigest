@@ -22,12 +22,12 @@ def newsletter_mdformat(newsletter: Newletter, openai_api_key, generate_images=T
     text = ""
     text += f"# {newsletter.title}\n"
     text += f"__{newsletter.introduction}__\n"
-    for section in newsletter.sections:
-        if section.image_prompt and generate_images:
-            text += f"\n ![image]({generate_image(section.image_prompt, openai_api_key)}) \n"
-        text += f"## {section.title} \n"
-        text += f"{section.text} \n \n "
-        text += f"*REFERENCE: {section.reference}*\n"
+    for article in newsletter.articles:
+        if article.image_prompt and generate_images:
+            text += f"\n ![image]({generate_image(article.image_prompt, openai_api_key)}) \n"
+        text += f"## {article.title} \n"
+        text += f"{article.text} \n \n "
+        text += f"*REFERENCE: {article.reference}*\n"
 
     text += f"## PS.\n"
     text += f"**{newsletter.funny_joke}**\n"
